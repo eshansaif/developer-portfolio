@@ -11,9 +11,10 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-area {
     display: flex;
     margin-bottom: 100px;
+    padding-left: 80px;
 }
 
 .half-width {
@@ -36,6 +37,7 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    /* position: fixed; */
 }
 
 .dream-big {
@@ -51,4 +53,18 @@ p {
 
 .right-pad {
     padding-right: 120px;
+}
+
+.footer {
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
+    background-color: #fb6957;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
 }
